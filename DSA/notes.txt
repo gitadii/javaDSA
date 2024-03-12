@@ -1,0 +1,13 @@
+1. Operator overloading is not supported in java. Only one operator "+" is by default overloaded only for Strings to enable concatenation.
+2. In python there is no primitive, everything is an obj and thus stored in heap.
+3. But, in java there are primitives which are stored in Stack and non-primitives + wrapper classes which are stored in Heap.
+4. Primitives take less space and are cheaper to manipulate.
+5. STRINGS in java are unique case, they are immutable and are stored in a specific area inside the heap memory k/a String Pool memory.
+6. If we create 2 String objs and store same value in them it will not create new string :
+    String a = "Adi";
+    String b = "Adi";
+    Both will points to the same String instance.
+    String b = new String("Adi");
+    will create a new String instance.
+7. String Pool is a bit faster.
+    
