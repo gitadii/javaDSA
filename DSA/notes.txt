@@ -10,4 +10,5 @@
     String b = new String("Adi");
     will create a new String instance.
 7. String Pool is a bit faster.
+8. STRINGBUILDER : datatype to make String work as mutables.
     
