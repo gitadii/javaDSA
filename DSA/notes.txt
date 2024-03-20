@@ -11,4 +11,9 @@
     will create a new String instance.
 7. String Pool is a bit faster.
 8. STRINGBUILDER : datatype to make String work as mutables.
+9. Lecture -  RECURSION :
+    1. How function call works in languages internally :
+        - A function will remain in the stack until it is completed.
+        - When a function is finished executing it will be popped from the stack and the flow of prog will go to where the function was called from.
+    2. Space complexity in recursion is not constant because of recursive calls.
     
